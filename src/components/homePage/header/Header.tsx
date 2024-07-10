@@ -1,8 +1,9 @@
 import React from 'react';
 
 import HomeBackgroundImage from './HomeBackgroundImage';
-import GetInvolvedSection from './GetInvolvedSection';
-import DonateModal from './DonateModal';
+import DonateModal from './donationModal/DonateModal';
+import HypeStatement from './HypeStatement';
+import MiniMissionStatement from './MiniMissionStatement';
 
 function Header() {
     return (
@@ -12,9 +13,10 @@ function Header() {
                 <DonateModal />
             </div>
 
-            <GetInvolvedSection />
-            {/* <div>
-            </div> */}
+            <HypeStatement />
+
+            <MiniMissionStatement />
+            
         </div>
     )
 }
